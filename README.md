@@ -12,12 +12,13 @@ O **Star Schema** é composto por uma tabela fato central e várias tabelas dime
 
 ### **1. Tabela Fato: `fato_professor`**
 
-### **2. Dimensão: `dim_professor`**
+### **2. Dimensão: `professor`**
 
-### **3. Dimensão: `dim_tempo`**
-Informações relacionadas ao tempo.
+### **3. Dimensão: `Data`**
 
-### **4. Dimensão: `dim_disciplina`**
+### **4. Dimensão: `Curso`**
+
+### **5. Dimensão: `Departamento`**
 
 ---
 
