@@ -1,2 +1,37 @@
-# Star_Schema_Professor
-Realizado a criação de um Star Schema com base no diagrama relacional disponibilizado. Utilizado My SQL Workbench.
+# Star Schema: Professor Analysis
+
+## 📌 Descrição do Projeto
+
+Este projeto utiliza um modelo de **Star Schema** para organizar e analisar dados relacionados a professores e suas atividades. O objetivo é criar uma estrutura eficiente para consultas analíticas, permitindo uma análise detalhada sobre desempenho, carga de trabalho, e dados demográficos dos professores.
+
+---
+
+## 🏗️ Estrutura do Star Schema
+
+O **Star Schema** é composto por uma tabela fato central e várias tabelas dimensão conectadas a ela. A estrutura do projeto é a seguinte:
+
+### **1. Tabela Fato: `fato_professor`**
+
+### **2. Dimensão: `dim_professor`**
+
+### **3. Dimensão: `dim_tempo`**
+Informações relacionadas ao tempo.
+
+### **4. Dimensão: `dim_disciplina`**
+
+---
+
+## 🎯 Objetivo do Projeto
+
+- Estruturar os dados em um modelo de **Star Schema** para facilitar análises.
+- Permitir consultas rápidas e eficientes.
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+
+- **Banco de Dados**: MySQL
+- **Linguagem de Programação**: SQL
+- **Ferramentas de Visualização**: MySQL Workbench
+
+
